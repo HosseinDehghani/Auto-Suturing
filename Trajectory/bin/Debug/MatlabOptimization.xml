@@ -1,0 +1,404 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MatlabOptimization</name>
+    </assembly>
+    <members>
+        <member name="T:MatlabOptimization.Optimization">
+            <summary>
+            The Optimization class provides a CLS compliant, MWArray interface to the MATLAB
+            functions contained in the files:
+            <newpara></newpara>
+            C:\Users\hdehghaniashkezar2\Dropbox\Lab\Project\Automated_Suturing\TATRC\MATLAB\v7_T
+            ATRC\App testing\8_optimization\dll\fmin.m
+            </summary>
+            <remarks>
+            @Version 0.0
+            </remarks>
+        </member>
+        <member name="M:MatlabOptimization.Optimization.#cctor">
+            <summary internal= "true">
+            The static constructor instantiates and initializes the MATLAB Runtime instance.
+            </summary>
+        </member>
+        <member name="M:MatlabOptimization.Optimization.#ctor">
+            <summary>
+            Constructs a new instance of the Optimization class.
+            </summary>
+        </member>
+        <member name="M:MatlabOptimization.Optimization.Finalize">
+            <summary internal= "true">
+            Class destructor called by the CLR garbage collector.
+            </summary>
+        </member>
+        <member name="M:MatlabOptimization.Optimization.Dispose">
+            <summary>
+            Frees the native resources associated with this object
+            </summary>
+        </member>
+        <member name="M:MatlabOptimization.Optimization.Dispose(System.Boolean)">
+            <summary internal= "true">
+            Internal dispose function
+            </summary>
+        </member>
+        <member name="M:MatlabOptimization.Optimization.fmin">
+             <summary>
+             Provides a single output, 0-input MWArrayinterface to the fmin MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             x0=[0,0,0,0];
+             </remarks>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MatlabOptimization.Optimization.fmin(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 1-input MWArrayinterface to the fmin MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             x0=[0,0,0,0];
+             </remarks>
+             <param name="fun_input">Input argument #1</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MatlabOptimization.Optimization.fmin(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 2-input MWArrayinterface to the fmin MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             x0=[0,0,0,0];
+             </remarks>
+             <param name="fun_input">Input argument #1</param>
+             <param name="var1">Input argument #2</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MatlabOptimization.Optimization.fmin(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 3-input MWArrayinterface to the fmin MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             x0=[0,0,0,0];
+             </remarks>
+             <param name="fun_input">Input argument #1</param>
+             <param name="var1">Input argument #2</param>
+             <param name="var2">Input argument #3</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MatlabOptimization.Optimization.fmin(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 4-input MWArrayinterface to the fmin MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             x0=[0,0,0,0];
+             </remarks>
+             <param name="fun_input">Input argument #1</param>
+             <param name="var1">Input argument #2</param>
+             <param name="var2">Input argument #3</param>
+             <param name="var3">Input argument #4</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MatlabOptimization.Optimization.fmin(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 5-input MWArrayinterface to the fmin MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             x0=[0,0,0,0];
+             </remarks>
+             <param name="fun_input">Input argument #1</param>
+             <param name="var1">Input argument #2</param>
+             <param name="var2">Input argument #3</param>
+             <param name="var3">Input argument #4</param>
+             <param name="var4">Input argument #5</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MatlabOptimization.Optimization.fmin(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 6-input MWArrayinterface to the fmin MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             x0=[0,0,0,0];
+             </remarks>
+             <param name="fun_input">Input argument #1</param>
+             <param name="var1">Input argument #2</param>
+             <param name="var2">Input argument #3</param>
+             <param name="var3">Input argument #4</param>
+             <param name="var4">Input argument #5</param>
+             <param name="var01">Input argument #6</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MatlabOptimization.Optimization.fmin(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 7-input MWArrayinterface to the fmin MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             x0=[0,0,0,0];
+             </remarks>
+             <param name="fun_input">Input argument #1</param>
+             <param name="var1">Input argument #2</param>
+             <param name="var2">Input argument #3</param>
+             <param name="var3">Input argument #4</param>
+             <param name="var4">Input argument #5</param>
+             <param name="var01">Input argument #6</param>
+             <param name="var02">Input argument #7</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MatlabOptimization.Optimization.fmin(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 8-input MWArrayinterface to the fmin MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             x0=[0,0,0,0];
+             </remarks>
+             <param name="fun_input">Input argument #1</param>
+             <param name="var1">Input argument #2</param>
+             <param name="var2">Input argument #3</param>
+             <param name="var3">Input argument #4</param>
+             <param name="var4">Input argument #5</param>
+             <param name="var01">Input argument #6</param>
+             <param name="var02">Input argument #7</param>
+             <param name="var03">Input argument #8</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MatlabOptimization.Optimization.fmin(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 9-input MWArrayinterface to the fmin MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             x0=[0,0,0,0];
+             </remarks>
+             <param name="fun_input">Input argument #1</param>
+             <param name="var1">Input argument #2</param>
+             <param name="var2">Input argument #3</param>
+             <param name="var3">Input argument #4</param>
+             <param name="var4">Input argument #5</param>
+             <param name="var01">Input argument #6</param>
+             <param name="var02">Input argument #7</param>
+             <param name="var03">Input argument #8</param>
+             <param name="var04">Input argument #9</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MatlabOptimization.Optimization.fmin(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the fmin MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             x0=[0,0,0,0];
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MatlabOptimization.Optimization.fmin(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the fmin MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             x0=[0,0,0,0];
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="fun_input">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MatlabOptimization.Optimization.fmin(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 2-input MWArray interface to the fmin MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             x0=[0,0,0,0];
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="fun_input">Input argument #1</param>
+             <param name="var1">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MatlabOptimization.Optimization.fmin(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 3-input MWArray interface to the fmin MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             x0=[0,0,0,0];
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="fun_input">Input argument #1</param>
+             <param name="var1">Input argument #2</param>
+             <param name="var2">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MatlabOptimization.Optimization.fmin(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 4-input MWArray interface to the fmin MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             x0=[0,0,0,0];
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="fun_input">Input argument #1</param>
+             <param name="var1">Input argument #2</param>
+             <param name="var2">Input argument #3</param>
+             <param name="var3">Input argument #4</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MatlabOptimization.Optimization.fmin(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 5-input MWArray interface to the fmin MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             x0=[0,0,0,0];
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="fun_input">Input argument #1</param>
+             <param name="var1">Input argument #2</param>
+             <param name="var2">Input argument #3</param>
+             <param name="var3">Input argument #4</param>
+             <param name="var4">Input argument #5</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MatlabOptimization.Optimization.fmin(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 6-input MWArray interface to the fmin MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             x0=[0,0,0,0];
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="fun_input">Input argument #1</param>
+             <param name="var1">Input argument #2</param>
+             <param name="var2">Input argument #3</param>
+             <param name="var3">Input argument #4</param>
+             <param name="var4">Input argument #5</param>
+             <param name="var01">Input argument #6</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MatlabOptimization.Optimization.fmin(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 7-input MWArray interface to the fmin MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             x0=[0,0,0,0];
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="fun_input">Input argument #1</param>
+             <param name="var1">Input argument #2</param>
+             <param name="var2">Input argument #3</param>
+             <param name="var3">Input argument #4</param>
+             <param name="var4">Input argument #5</param>
+             <param name="var01">Input argument #6</param>
+             <param name="var02">Input argument #7</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MatlabOptimization.Optimization.fmin(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 8-input MWArray interface to the fmin MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             x0=[0,0,0,0];
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="fun_input">Input argument #1</param>
+             <param name="var1">Input argument #2</param>
+             <param name="var2">Input argument #3</param>
+             <param name="var3">Input argument #4</param>
+             <param name="var4">Input argument #5</param>
+             <param name="var01">Input argument #6</param>
+             <param name="var02">Input argument #7</param>
+             <param name="var03">Input argument #8</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MatlabOptimization.Optimization.fmin(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 9-input MWArray interface to the fmin MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             x0=[0,0,0,0];
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="fun_input">Input argument #1</param>
+             <param name="var1">Input argument #2</param>
+             <param name="var2">Input argument #3</param>
+             <param name="var3">Input argument #4</param>
+             <param name="var4">Input argument #5</param>
+             <param name="var01">Input argument #6</param>
+             <param name="var02">Input argument #7</param>
+             <param name="var03">Input argument #8</param>
+             <param name="var04">Input argument #9</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MatlabOptimization.Optimization.fmin(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray[]@,MathWorks.MATLAB.NET.Arrays.MWArray[])">
+             <summary>
+             Provides an interface for the fmin function in which the input and output
+             arguments are specified as an array of MWArrays.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             x0=[0,0,0,0];
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of MWArray output arguments</param>
+             <param name= "argsIn">Array of MWArray input arguments</param>
+            
+        </member>
+        <member name="M:MatlabOptimization.Optimization.WaitForFiguresToDie">
+             <summary>
+             This method will cause a MATLAB figure window to behave as a modal dialog box.
+             The method will not return until all the figure windows associated with this
+             component have been closed.
+             </summary>
+             <remarks>
+             An application should only call this method when required to keep the
+             MATLAB figure window from disappearing.  Other techniques, such as calling
+             Console.ReadLine() from the application should be considered where
+             possible.</remarks>
+            
+        </member>
+    </members>
+</doc>
